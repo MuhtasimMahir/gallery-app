@@ -13,18 +13,13 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-image:;
+    
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 .container__in {
     display: flex;
     justify-content: space-between;
-}
-.container__file input {
-    /* display:inline-flex;
-    text-align: center; */
-    
 }
 
 
@@ -164,7 +159,8 @@ h1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: black;
+    
+    background: rgba(5, 5, 5, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,4 +177,32 @@ h1 {
     color: white;
     font-size: 24px;
     cursor: pointer;
+}
+
+.gallery-view-prev-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.gallery-view-next-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+}
+
+.fullscreen-image {
+  display: none;
 }
